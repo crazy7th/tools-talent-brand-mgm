@@ -1,0 +1,130 @@
+[
+  {
+    "label": "Outfit SD + Gerbang",
+    "image_size": "portrait_16_9",
+    "num_images": 1,
+    "max_images": 1,
+    "enable_safety_checker": true,
+    "enhance_prompt_mode": "standard",
+    "image_urls": [
+      "input_ber3_1.jpg", 
+      "spot_3_gerbang.jpeg", 
+      "logo_SD.png"
+    ],
+    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: school logo\n\n🔴 TASK 1 — Indonesian Elementary School (SD) Uniform\n\nReplace the outfit with Indonesian public elementary school (SD) uniform.\n\nHARD LOCK – SHIRT\nWhite shirt\nClean and simple\nExactly 1 chest pocket (left side)\nSmall school logo placed on the pocket\nLogo must be visually identical to Reference-3\nLogo size proportional (small, realistic embroidery size)\nNo extra text added\nNo blazer, no tie, no vest\nNot office-style clothing\nHARD LOCK – BOTTOM COLOR (IMPORTANT FIX)\nSolid deep red typical Indonesian SD uniform\nSlightly maroon tone (NOT bright red)\nColor range similar to: #8e2b2b – #a93226\nMuted red tone\nClearly red but slightly darker and calmer\nNOT neon red\nNOT brown\nNOT blackish\nNOT overly dark\nClothing Details\n\nMale:\n\nRed shorts\nAbove knee length (typical SD cut)\n\nFemale (non-hijab):\n\nRed skirt\nKnee length\n\nFemale (hijab):\n\nLong red skirt (below knee to ankle)\nLong sleeves (wrist-length mandatory)\nHijab fully covers hair, neck, collar area\nModest fit\nNo visible inner layers\n\nSleeves:\n\nFollow original sleeve length\nEXCEPTION: hijab must use long sleeves\nShoes & Socks\nBlack casual school shoes\n(canvas or simple low-top school shoes)\nWhite or neutral ankle socks\nShort visible socks only\nNOT mid-calf\nNOT knee-high\nRemove\nAccessories\nWatches\nBracelets\nLayers\nLeggings\nNon-uniform items\nKeep (ABSOLUTE PRIORITY)\nFace\nIdentity\nExpression\nSkin tone\nHairstyle\nBody proportions\nOriginal number of people\n🏫 TASK 2 — Background Replacement\n\nReplace with Reference-2 background.\n\nIntegration Rules\nMatch lighting direction\nMatch color temperature\nMatch perspective\nNatural shadow under feet\nFeet must touch ground\nNo floating\nNo distortion\nNo face overlap\nNo cropping of subjects\nRemove original floor/ground completely\n🔒 HARD CONSTRAINTS\nUse slightly maroon SD red (NOT bright red)\nLogo small and realistic on pocket\nLogo must be identical to Reference-3\nDo NOT enlarge logo\nKeep all original subjects\nDo NOT add extra people\nClean result\nNo artifacts\nNatural blending\n🎯 FINAL OUTPUT\n\nNatural Indonesian elementary school (SD) group photo.\nCheerful, relaxed, cohesive, realistic, properly integrated with background."
+  },
+  {
+    "label": "Outfit SD + Lapangan",
+    "image_size": "portrait_16_9",
+    "num_images": 1,
+    "max_images": 1,
+    "enable_safety_checker": true,
+    "enhance_prompt_mode": "standard",
+    "image_urls": [
+      "input_ber3_1.jpg", 
+      "spot_1_lapangan.jpg", 
+      "logo_SD.png"
+    ],
+    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: school logo\n\n🔴 TASK 1 — Indonesian Elementary School (SD) Uniform\n\nReplace the outfit with Indonesian public elementary school (SD) uniform.\n\nHARD LOCK – SHIRT\nWhite shirt\nClean and simple\nExactly 1 chest pocket (left side)\nSmall school logo placed on the pocket\nLogo must be visually identical to Reference-3\nLogo size proportional (small, realistic embroidery size)\nNo extra text added\nNo blazer, no tie, no vest\nNot office-style clothing\nHARD LOCK – BOTTOM COLOR (IMPORTANT FIX)\nSolid deep red typical Indonesian SD uniform\nSlightly maroon tone (NOT bright red)\nColor range similar to: #8e2b2b – #a93226\nMuted red tone\nClearly red but slightly darker and calmer\nNOT neon red\nNOT brown\nNOT blackish\nNOT overly dark\nClothing Details\n\nMale:\n\nRed shorts\nAbove knee length (typical SD cut)\n\nFemale (non-hijab):\n\nRed skirt\nKnee length\n\nFemale (hijab):\n\nLong red skirt (below knee to ankle)\nLong sleeves (wrist-length mandatory)\nHijab fully covers hair, neck, collar area\nModest fit\nNo visible inner layers\n\nSleeves:\n\nFollow original sleeve length\nEXCEPTION: hijab must use long sleeves\nShoes & Socks\nBlack casual school shoes\n(canvas or simple low-top school shoes)\nWhite or neutral ankle socks\nShort visible socks only\nNOT mid-calf\nNOT knee-high\nRemove\nAccessories\nWatches\nBracelets\nLayers\nLeggings\nNon-uniform items\nKeep (ABSOLUTE PRIORITY)\nFace\nIdentity\nExpression\nSkin tone\nHairstyle\nBody proportions\nOriginal number of people\n🏫 TASK 2 — Background Replacement\n\nReplace with Reference-2 background.\n\nIntegration Rules\nMatch lighting direction\nMatch color temperature\nMatch perspective\nNatural shadow under feet\nFeet must touch ground\nNo floating\nNo distortion\nNo face overlap\nNo cropping of subjects\nRemove original floor/ground completely\n🔒 HARD CONSTRAINTS\nUse slightly maroon SD red (NOT bright red)\nLogo small and realistic on pocket\nLogo must be identical to Reference-3\nDo NOT enlarge logo\nKeep all original subjects\nDo NOT add extra people\nClean result\nNo artifacts\nNatural blending\n🎯 FINAL OUTPUT\n\nNatural Indonesian elementary school (SD) group photo.\nCheerful, relaxed, cohesive, realistic, properly integrated with background."
+  },
+  {
+    "label": "Outfit SD + Mushola",
+    "image_size": "portrait_16_9",
+    "num_images": 1,
+    "max_images": 1,
+    "enable_safety_checker": true,
+    "enhance_prompt_mode": "standard",
+    "image_urls": [
+      "input_ber3_1.jpg", 
+      "spot_2_mushola.jpg", 
+      "logo_SD.png"
+    ],
+    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: school logo\n\n🔴 TASK 1 — Indonesian Elementary School (SD) Uniform\n\nReplace the outfit with Indonesian public elementary school (SD) uniform.\n\nHARD LOCK – SHIRT\nWhite shirt\nClean and simple\nExactly 1 chest pocket (left side)\nSmall school logo placed on the pocket\nLogo must be visually identical to Reference-3\nLogo size proportional (small, realistic embroidery size)\nNo extra text added\nNo blazer, no tie, no vest\nNot office-style clothing\nHARD LOCK – BOTTOM COLOR (IMPORTANT FIX)\nSolid deep red typical Indonesian SD uniform\nSlightly maroon tone (NOT bright red)\nColor range similar to: #8e2b2b – #a93226\nMuted red tone\nClearly red but slightly darker and calmer\nNOT neon red\nNOT brown\nNOT blackish\nNOT overly dark\nClothing Details\n\nMale:\n\nRed shorts\nAbove knee length (typical SD cut)\n\nFemale (non-hijab):\n\nRed skirt\nKnee length\n\nFemale (hijab):\n\nLong red skirt (below knee to ankle)\nLong sleeves (wrist-length mandatory)\nHijab fully covers hair, neck, collar area\nModest fit\nNo visible inner layers\n\nSleeves:\n\nFollow original sleeve length\nEXCEPTION: hijab must use long sleeves\nShoes & Socks\nBlack casual school shoes\n(canvas or simple low-top school shoes)\nWhite or neutral ankle socks\nShort visible socks only\nNOT mid-calf\nNOT knee-high\nRemove\nAccessories\nWatches\nBracelets\nLayers\nLeggings\nNon-uniform items\nKeep (ABSOLUTE PRIORITY)\nFace\nIdentity\nExpression\nSkin tone\nHairstyle\nBody proportions\nOriginal number of people\n🏫 TASK 2 — Background Replacement\n\nReplace with Reference-2 background.\n\nIntegration Rules\nMatch lighting direction\nMatch color temperature\nMatch perspective\nNatural shadow under feet\nFeet must touch ground\nNo floating\nNo distortion\nNo face overlap\nNo cropping of subjects\nRemove original floor/ground completely\n🔒 HARD CONSTRAINTS\nUse slightly maroon SD red (NOT bright red)\nLogo small and realistic on pocket\nLogo must be identical to Reference-3\nDo NOT enlarge logo\nKeep all original subjects\nDo NOT add extra people\nClean result\nNo artifacts\nNatural blending\n🎯 FINAL OUTPUT\n\nNatural Indonesian elementary school (SD) group photo.\nCheerful, relaxed, cohesive, realistic, properly integrated with background."
+  },
+
+  {
+    "label": "Outfit SMP + Gerbang",
+    "image_size": "portrait_16_9",
+    "num_images": 1,
+    "max_images": 1,
+    "enable_safety_checker": true,
+    "enhance_prompt_mode": "standard",
+    "image_urls": [
+      "input_ber3_1.jpg", 
+      "spot_3_gerbang.jpeg", 
+      "logo_osis_smp.jpg"
+    ],
+    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: school logo\n\n🔵 TASK 1 — Indonesian Junior High School (SMP) Uniform\n\nReplace the outfit with Indonesian public junior high school (SMP) uniform.\n\nHARD LOCK – SHIRT\nWhite shirt\nClean and simple\nExactly 1 chest pocket (left side)\nSmall school logo placed on the pocket\nLogo must be visually identical to Reference-3\nLogo size proportional (small, realistic embroidery size)\nNo extra text added\nNo blazer, no tie, no vest\nNot office-style clothing\nHARD LOCK – BOTTOM COLOR (CRITICAL)\nSolid navy blue (typical Indonesian SMP uniform)\nClearly dark blue (NOT black)\nMedium-dark navy tone\nColor reference range: #1f3a63 – #243b6b\nMust visibly read as blue\nNOT black\nNOT greyish\nNOT overly dark\nNOT faded\nNOT washed out\n\nImportant:\nThe fabric must retain visible blue hue under normal lighting.\nDo NOT let it appear black in shadows.\n\nClothing Details\n\nMale:\n\nNavy blue long pants\nStraight cut\nFull length to ankle\n\nFemale (non-hijab):\n\nNavy blue skirt\nBelow knee length (typical SMP cut)\n\nFemale (hijab):\n\nLong navy blue skirt (below knee to ankle)\nLong sleeves (wrist-length mandatory)\nHijab fully covers hair, neck, collar area\nModest fit\nNo visible inner layers\n\nSleeves:\n\nFollow original sleeve length\nEXCEPTION: hijab must use long sleeves\nShoes & Socks\nBlack casual school shoes\n(canvas or simple low-top school shoes)\nWhite or neutral ankle socks\nShort visible socks only\nNOT mid-calf\nNOT knee-high\nRemove\nAccessories\nWatches\nBracelets\nLayers\nLeggings\nNon-uniform items\nKeep (ABSOLUTE PRIORITY)\nFace\nIdentity\nExpression\nSkin tone\nHairstyle\nBody proportions\nOriginal number of people\n🏫 TASK 2 — Background Replacement\n\nReplace with Reference-2 background.\n\nIntegration Rules\nMatch lighting direction\nMatch color temperature\nMatch perspective\nNatural shadow under feet\nFeet must touch ground\nNo floating\nNo distortion\nNo face overlap\nNo cropping of subjects\nRemove original floor/ground completely\n🔒 HARD CONSTRAINTS\nUse navy blue SMP tone (clearly blue, NOT black)\nLogo small and realistic on pocket\nLogo must be identical to Reference-3\nDo NOT enlarge logo\nKeep all original subjects\nDo NOT add extra people\nClean result\nNo artifacts\nNatural blending\n🎯 FINAL OUTPUT\n\nNatural Indonesian junior high school (SMP) group photo.\nCheerful, relaxed, cohesive, realistic, properly integrated with background."
+  },
+  {
+    "label": "Outfit SMP + Lapangan",
+    "image_size": "portrait_16_9",
+    "num_images": 1,
+    "max_images": 1,
+    "enable_safety_checker": true,
+    "enhance_prompt_mode": "standard",
+    "image_urls": [
+      "input_ber3_1.jpg", 
+      "spot_1_lapangan.jpg", 
+      "logo_osis_smp.jpg"
+    ],
+    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: school logo\n\n🔵 TASK 1 — Indonesian Junior High School (SMP) Uniform\n\nReplace the outfit with Indonesian public junior high school (SMP) uniform.\n\nHARD LOCK – SHIRT\nWhite shirt\nClean and simple\nExactly 1 chest pocket (left side)\nSmall school logo placed on the pocket\nLogo must be visually identical to Reference-3\nLogo size proportional (small, realistic embroidery size)\nNo extra text added\nNo blazer, no tie, no vest\nNot office-style clothing\nHARD LOCK – BOTTOM COLOR (CRITICAL)\nSolid navy blue (typical Indonesian SMP uniform)\nClearly dark blue (NOT black)\nMedium-dark navy tone\nColor reference range: #1f3a63 – #243b6b\nMust visibly read as blue\nNOT black\nNOT greyish\nNOT overly dark\nNOT faded\nNOT washed out\n\nImportant:\nThe fabric must retain visible blue hue under normal lighting.\nDo NOT let it appear black in shadows.\n\nClothing Details\n\nMale:\n\nNavy blue long pants\nStraight cut\nFull length to ankle\n\nFemale (non-hijab):\n\nNavy blue skirt\nBelow knee length (typical SMP cut)\n\nFemale (hijab):\n\nLong navy blue skirt (below knee to ankle)\nLong sleeves (wrist-length mandatory)\nHijab fully covers hair, neck, collar area\nModest fit\nNo visible inner layers\n\nSleeves:\n\nFollow original sleeve length\nEXCEPTION: hijab must use long sleeves\nShoes & Socks\nBlack casual school shoes\n(canvas or simple low-top school shoes)\nWhite or neutral ankle socks\nShort visible socks only\nNOT mid-calf\nNOT knee-high\nRemove\nAccessories\nWatches\nBracelets\nLayers\nLeggings\nNon-uniform items\nKeep (ABSOLUTE PRIORITY)\nFace\nIdentity\nExpression\nSkin tone\nHairstyle\nBody proportions\nOriginal number of people\n🏫 TASK 2 — Background Replacement\n\nReplace with Reference-2 background.\n\nIntegration Rules\nMatch lighting direction\nMatch color temperature\nMatch perspective\nNatural shadow under feet\nFeet must touch ground\nNo floating\nNo distortion\nNo face overlap\nNo cropping of subjects\nRemove original floor/ground completely\n🔒 HARD CONSTRAINTS\nUse navy blue SMP tone (clearly blue, NOT black)\nLogo small and realistic on pocket\nLogo must be identical to Reference-3\nDo NOT enlarge logo\nKeep all original subjects\nDo NOT add extra people\nClean result\nNo artifacts\nNatural blending\n🎯 FINAL OUTPUT\n\nNatural Indonesian junior high school (SMP) group photo.\nCheerful, relaxed, cohesive, realistic, properly integrated with background."
+  },
+  {
+    "label": "Outfit SMP + Mushola",
+    "image_size": "portrait_16_9",
+    "num_images": 1,
+    "max_images": 1,
+    "enable_safety_checker": true,
+    "enhance_prompt_mode": "standard",
+    "image_urls": [
+      "input_ber3_1.jpg", 
+      "spot_2_mushola.jpg", 
+      "logo_osis_smp.jpg"
+    ],
+    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: school logo\n\n🔵 TASK 1 — Indonesian Junior High School (SMP) Uniform\n\nReplace the outfit with Indonesian public junior high school (SMP) uniform.\n\nHARD LOCK – SHIRT\nWhite shirt\nClean and simple\nExactly 1 chest pocket (left side)\nSmall school logo placed on the pocket\nLogo must be visually identical to Reference-3\nLogo size proportional (small, realistic embroidery size)\nNo extra text added\nNo blazer, no tie, no vest\nNot office-style clothing\nHARD LOCK – BOTTOM COLOR (CRITICAL)\nSolid navy blue (typical Indonesian SMP uniform)\nClearly dark blue (NOT black)\nMedium-dark navy tone\nColor reference range: #1f3a63 – #243b6b\nMust visibly read as blue\nNOT black\nNOT greyish\nNOT overly dark\nNOT faded\nNOT washed out\n\nImportant:\nThe fabric must retain visible blue hue under normal lighting.\nDo NOT let it appear black in shadows.\n\nClothing Details\n\nMale:\n\nNavy blue long pants\nStraight cut\nFull length to ankle\n\nFemale (non-hijab):\n\nNavy blue skirt\nBelow knee length (typical SMP cut)\n\nFemale (hijab):\n\nLong navy blue skirt (below knee to ankle)\nLong sleeves (wrist-length mandatory)\nHijab fully covers hair, neck, collar area\nModest fit\nNo visible inner layers\n\nSleeves:\n\nFollow original sleeve length\nEXCEPTION: hijab must use long sleeves\nShoes & Socks\nBlack casual school shoes\n(canvas or simple low-top school shoes)\nWhite or neutral ankle socks\nShort visible socks only\nNOT mid-calf\nNOT knee-high\nRemove\nAccessories\nWatches\nBracelets\nLayers\nLeggings\nNon-uniform items\nKeep (ABSOLUTE PRIORITY)\nFace\nIdentity\nExpression\nSkin tone\nHairstyle\nBody proportions\nOriginal number of people\n🏫 TASK 2 — Background Replacement\n\nReplace with Reference-2 background.\n\nIntegration Rules\nMatch lighting direction\nMatch color temperature\nMatch perspective\nNatural shadow under feet\nFeet must touch ground\nNo floating\nNo distortion\nNo face overlap\nNo cropping of subjects\nRemove original floor/ground completely\n🔒 HARD CONSTRAINTS\nUse navy blue SMP tone (clearly blue, NOT black)\nLogo small and realistic on pocket\nLogo must be identical to Reference-3\nDo NOT enlarge logo\nKeep all original subjects\nDo NOT add extra people\nClean result\nNo artifacts\nNatural blending\n🎯 FINAL OUTPUT\n\nNatural Indonesian junior high school (SMP) group photo.\nCheerful, relaxed, cohesive, realistic, properly integrated with background."
+  },
+
+  {
+    "label": "Outfit SMA + Gerbang",
+    "image_size": "portrait_16_9",
+    "num_images": 1,
+    "max_images": 1,
+    "enable_safety_checker": true,
+    "enhance_prompt_mode": "standard",
+    "image_urls": [
+      "input_ber3_1.jpg", 
+      "spot_3_gerbang.jpeg", 
+      "logo_osis_sma.jpg"
+    ],
+    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: OSIS logo\n\n[Task 1: Indonesian SMA Uniform]\nReplace outfit with Indonesian public high school uniform.\n\nRules (HARD LOCK):\n* White shirt, clean, 1 pocket\n* OSIS logo on pocket (exact match, no text)\n* No blazer/tie/vest, not office wear\n\nBottom color (HARD LOCK):\n* Light bluish grey similar to #72829f\n* Typical Indonesian SMA uniform color\n* Slight blue tint clearly visible\n* Medium-light tone (NOT dark grey, NOT charcoal, NOT black)\n* Avoid dull or muddy grey\n* Color must appear brighter than neutral grey\n\nClothing:\n* Male: long pants\n* Female: skirt\n* Hijab:\n  - Long skirt (below knee–ankle), modest\n  - Long sleeves (wrist-length)\n  - Hijab fully covers hair, neck, and collar area\n* Sleeves follow original\n\nShoes & socks:\n* Black casual school shoes (canvas, low-top sneakers)\n* Youth casual sneaker style, commonly worn by Indonesian students\n* White or neutral ankle socks (short, visible)\n* NOT mid-calf or long socks\n\nRemove: accessories, layers, non-uniform items\nKeep: face, identity, expression, hairstyle, proportions\nStyle: Indonesian student, natural, not formal\n\n[Task 2: Background]\nReplace with reference background. Match lighting, perspective, shadows, seamless blend.\n\nRules:\n* All subjects visible, no overlap on faces\n* Feet touch ground, natural posture\n* No floating, no distortion\n\nLighting:\n* Match background\n* Add realistic shadows\n* Ensure contact (hands–handlebar, feet–ground)\n\nHard constraints:\n* Do NOT use dark grey, charcoal, or near-black tones\n* Keep all original subjects (no extra/missing people)\n* Do NOT add extra people\n* Clean, realistic, no artifacts\n* Do NOT retain floor or ground from the main subject image\n\nFinal: Natural Indonesian senior high school (SMA) group photo.\nCheerful, relaxed, cohesive, realistic, properly integrated with background."
+  },
+  {
+    "label": "Outfit SMA + Lapangan",
+    "image_size": "portrait_16_9",
+    "num_images": 1,
+    "max_images": 1,
+    "enable_safety_checker": true,
+    "enhance_prompt_mode": "standard",
+    "image_urls": [
+      "input_ber3_1.jpg", 
+      "spot_1_lapangan.jpg", 
+      "logo_osis_sma.jpg"
+    ],
+    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: OSIS logo\n\n[Task 1: Indonesian SMA Uniform]\nReplace outfit with Indonesian public high school uniform.\n\nRules (HARD LOCK):\n* White shirt, clean, 1 pocket\n* OSIS logo on pocket (exact match, no text)\n* No blazer/tie/vest, not office wear\n\nBottom color (HARD LOCK):\n* Light bluish grey similar to #72829f\n* Typical Indonesian SMA uniform color\n* Slight blue tint clearly visible\n* Medium-light tone (NOT dark grey, NOT charcoal, NOT black)\n* Avoid dull or muddy grey\n* Color must appear brighter than neutral grey\n\nClothing:\n* Male: long pants\n* Female: skirt\n* Hijab:\n  - Long skirt (below knee–ankle), modest\n  - Long sleeves (wrist-length)\n  - Hijab fully covers hair, neck, and collar area\n* Sleeves follow original\n\nShoes & socks:\n* Black casual school shoes (canvas, low-top sneakers)\n* Youth casual sneaker style, commonly worn by Indonesian students\n* White or neutral ankle socks (short, visible)\n* NOT mid-calf or long socks\n\nRemove: accessories, layers, non-uniform items\nKeep: face, identity, expression, hairstyle, proportions\nStyle: Indonesian student, natural, not formal\n\n[Task 2: Background]\nReplace with reference background. Match lighting, perspective, shadows, seamless blend.\n\nRules:\n* All subjects visible, no overlap on faces\n* Feet touch ground, natural posture\n* No floating, no distortion\n\nLighting:\n* Match background\n* Add realistic shadows\n* Ensure contact (hands–handlebar, feet–ground)\n\nHard constraints:\n* Do NOT use dark grey, charcoal, or near-black tones\n* Keep all original subjects (no extra/missing people)\n* Do NOT add extra people\n* Clean, realistic, no artifacts\n* Do NOT retain floor or ground from the main subject image\n\nFinal: Natural Indonesian senior high school (SMA) group photo.\nCheerful, relaxed, cohesive, realistic, properly integrated with background."
+  },
+  {
+    "label": "Outfit SMA + Mushola",
+    "image_size": "portrait_16_9",
+    "num_images": 1,
+    "max_images": 1,
+    "enable_safety_checker": true,
+    "enhance_prompt_mode": "standard",
+    "image_urls": [
+      "input_ber3_1.jpg", 
+      "spot_2_mushola.jpg", 
+      "logo_osis_sma.jpg"
+    ],
+    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: OSIS logo\n\n[Task 1: Indonesian SMA Uniform]\nReplace outfit with Indonesian public high school uniform.\n\nRules (HARD LOCK):\n* White shirt, clean, 1 pocket\n* OSIS logo on pocket (exact match, no text)\n* No blazer/tie/vest, not office wear\n\nBottom color (HARD LOCK):\n* Light bluish grey similar to #72829f\n* Typical Indonesian SMA uniform color\n* Slight blue tint clearly visible\n* Medium-light tone (NOT dark grey, NOT charcoal, NOT black)\n* Avoid dull or muddy grey\n* Color must appear brighter than neutral grey\n\nClothing:\n* Male: long pants\n* Female: skirt\n* Hijab:\n  - Long skirt (below knee–ankle), modest\n  - Long sleeves (wrist-length)\n  - Hijab fully covers hair, neck, and collar area\n* Sleeves follow original\n\nShoes & socks:\n* Black casual school shoes (canvas, low-top sneakers)\n* Youth casual sneaker style, commonly worn by Indonesian students\n* White or neutral ankle socks (short, visible)\n* NOT mid-calf or long socks\n\nRemove: accessories, layers, non-uniform items\nKeep: face, identity, expression, hairstyle, proportions\nStyle: Indonesian student, natural, not formal\n\n[Task 2: Background]\nReplace with reference background. Match lighting, perspective, shadows, seamless blend.\n\nRules:\n* All subjects visible, no overlap on faces\n* Feet touch ground, natural posture\n* No floating, no distortion\n\nLighting:\n* Match background\n* Add realistic shadows\n* Ensure contact (hands–handlebar, feet–ground)\n\nHard constraints:\n* Do NOT use dark grey, charcoal, or near-black tones\n* Keep all original subjects (no extra/missing people)\n* Do NOT add extra people\n* Clean, realistic, no artifacts\n* Do NOT retain floor or ground from the main subject image\n\nFinal: Natural Indonesian senior high school (SMA) group photo.\nCheerful, relaxed, cohesive, realistic, properly integrated with background."
+  }
+]
