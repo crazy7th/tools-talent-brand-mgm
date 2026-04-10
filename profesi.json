@@ -1,0 +1,74 @@
+[
+  {
+    "label": "Profesi Biologi",
+    "prompt": "Ubah foto ini menjadi ilustrasi dengan gaya 3D digital caricature (big head style), dengan proporsi kepala sedikit lebih besar dari tubuh, namun tetap mempertahankan kemiripan wajah (stylized realism).\n\nGunakan gaya Pixar-style / animasi modern dengan tekstur halus, pencahayaan lembut (soft lighting), dan detail wajah yang bersih serta ekspresif.\n\nGunakan komposisi half body (setengah badan) agar fokus tetap pada wajah dan ekspresi karakter.\n\nTema: Jurusan IPA (Biologi modern).\nTempatkan karakter di dalam laboratorium biologi modern yang rapi dan clean, dengan elemen seperti mikroskop, tabung reaksi berisi cairan berwarna lembut, model DNA helix, serta papan catatan ilmiah sederhana.\n\nJangan tambahkan orang lain di background. Fokus hanya pada satu karakter utama.\n\nKarakter mengenakan jas lab putih yang rapi, sambil memegang tabung reaksi, clipboard, atau sedang mengamati sampel.\n\nTambahkan elemen visual seperti efek cahaya halus (soft glow) dari cairan eksperimen atau elemen DNA untuk memberikan kesan hidup.\n\nTambahkan nametag atau teks label yang jelas bertuliskan: \"BIOLOGI\".\nPosisikan secara natural (misalnya di bagian dada seperti badge, atau sebagai elemen desain di background), dengan font yang clean dan mudah dibaca namun tetap menyatu dengan gaya ilustrasi.\n\nGunakan depth of field ringan (background sedikit blur) agar karakter lebih menonjol, dengan nuansa ilustrasi editorial yang mencerminkan dunia sains dan penelitian biologi modern.",
+    "num_images": 1,
+    "aspect_ratio": "9:16",
+    "output_format": "png",
+    "image_urls": [
+      "input_1_closeup.jpg"
+    ],
+    "resolution": "0.5K",
+    "limit_generations": true
+  },
+  {
+    "label": "Profesi Fisika",
+    "prompt": "Ubah foto ini menjadi ilustrasi dengan gaya 3D digital caricature (big head style), dengan proporsi kepala sedikit lebih besar dari tubuh, namun tetap mempertahankan kemiripan wajah (stylized realism).\n\nGunakan gaya Pixar-style / animasi modern dengan tekstur halus, pencahayaan lembut (soft lighting), dan detail wajah yang bersih serta ekspresif.\n\nGunakan komposisi half body (setengah badan) agar fokus tetap pada wajah dan ekspresi karakter.\n\nTema: Jurusan IPA (Fisika modern).\nTempatkan karakter di dalam laboratorium atau ruang eksperimen fisika modern dengan elemen seperti papan tulis berisi rumus, alat eksperimen listrik atau cahaya, serta visual energi atau gelombang.\n\nJangan tambahkan orang lain di background. Fokus hanya pada satu karakter utama.\n\nKarakter mengenakan jas lab atau pakaian ilmuwan modern, sambil memegang alat eksperimen atau menunjuk ke papan rumus.\n\nTambahkan elemen visual seperti efek cahaya, energi, atau gelombang (glow halus) untuk memberikan kesan dinamis dan futuristik.\n\nTambahkan nametag atau teks label yang jelas bertuliskan: \"FISIKA\".\nPosisikan secara natural (misalnya di bagian dada seperti badge, atau sebagai elemen desain di background), dengan font yang clean dan mudah dibaca namun tetap menyatu dengan gaya ilustrasi.\n\nGunakan depth of field ringan (background sedikit blur) agar karakter lebih menonjol, dengan nuansa ilustrasi editorial yang mencerminkan dunia sains, energi, dan eksplorasi fisika modern.",
+    "num_images": 1,
+    "aspect_ratio": "9:16",
+    "output_format": "png",
+    "image_urls": [
+      "input_1_closeup.jpg"
+    ],
+    "resolution": "0.5K",
+    "limit_generations": true
+  },
+  {
+    "label": "Profesi Kimia",
+    "prompt": "Ubah foto ini menjadi ilustrasi dengan gaya 3D digital caricature (big head style), dengan proporsi kepala sedikit lebih besar dari tubuh, namun tetap mempertahankan kemiripan wajah (stylized realism).\n\nGunakan gaya Pixar-style / animasi modern dengan tekstur halus, pencahayaan lembut (soft lighting), dan detail wajah yang bersih serta ekspresif.\n\nGunakan komposisi half body (setengah badan) agar fokus tetap pada wajah dan ekspresi karakter.\n\nTema: Jurusan IPA (Kimia modern).\nTempatkan karakter di dalam laboratorium kimia modern dengan elemen seperti tabung reaksi, beaker, cairan berwarna, serta rak alat laboratorium yang tertata rapi.\n\nJangan tambahkan orang lain di background. Fokus hanya pada satu karakter utama.\n\nKarakter mengenakan jas lab putih dan perlengkapan sederhana, sambil memegang tabung reaksi atau melakukan eksperimen.\n\nTambahkan elemen visual seperti reaksi kimia ringan (gelembung atau glow warna-warni halus) untuk memberikan kesan hidup.\n\nTambahkan nametag atau teks label yang jelas bertuliskan: \"KIMIA\".\nPosisikan secara natural (misalnya di bagian dada seperti badge, atau sebagai elemen desain di background), dengan font yang clean dan mudah dibaca namun tetap menyatu dengan gaya ilustrasi.\n\nGunakan depth of field ringan (background sedikit blur) agar karakter lebih menonjol, dengan nuansa ilustrasi editorial yang mencerminkan dunia eksperimen dan penelitian kimia modern.",
+    "num_images": 1,
+    "aspect_ratio": "9:16",
+    "output_format": "png",
+    "image_urls": [
+      "input_1_closeup.jpg"
+    ],
+    "resolution": "0.5K",
+    "limit_generations": true
+  },
+  {
+    "label": "Profesi Matematika",
+    "prompt": "Ubah foto ini menjadi ilustrasi dengan gaya 3D digital caricature (big head style), dengan proporsi kepala sedikit lebih besar dari tubuh, namun tetap mempertahankan kemiripan wajah (stylized realism).\n\nGunakan gaya Pixar-style / animasi modern dengan tekstur halus, pencahayaan lembut (soft lighting), dan detail wajah yang bersih serta ekspresif.\n\nGunakan komposisi half body (setengah badan) agar fokus tetap pada wajah dan ekspresi karakter.\n\nTema: Jurusan Matematika.\nTempatkan karakter di dalam ruang belajar modern atau ruang kerja akademik dengan elemen seperti papan tulis berisi rumus matematika, grafik, angka, atau simbol matematika yang tersusun rapi.\n\nJangan tambahkan orang lain di background. Fokus hanya pada satu karakter utama.\n\nKarakter mengenakan pakaian rapi atau semi-formal, sambil memegang buku catatan atau alat tulis.\n\nTambahkan elemen visual seperti angka, simbol matematika, atau grafik yang halus sebagai bagian dari background untuk memperkuat tema.\n\nTambahkan nametag atau teks label yang jelas bertuliskan: \"MATEMATIKA\".\nPosisikan secara natural (misalnya di bagian dada seperti badge, atau sebagai elemen desain di background), dengan font yang clean dan mudah dibaca namun tetap menyatu dengan gaya ilustrasi.\n\nGunakan depth of field ringan (background sedikit blur) agar karakter lebih menonjol, dengan nuansa ilustrasi editorial yang mencerminkan dunia logika, analisis, dan pemikiran matematis.",
+    "num_images": 1,
+    "aspect_ratio": "9:16",
+    "output_format": "png",
+    "image_urls": [
+      "input_1_closeup.jpg"
+    ],
+    "resolution": "0.5K",
+    "limit_generations": true
+  },
+  {
+    "label": "Profesi Sosial",
+    "prompt": "Ubah foto ini menjadi ilustrasi dengan gaya 3D digital caricature (big head style), dengan proporsi kepala sedikit lebih besar dari tubuh, namun tetap mempertahankan kemiripan wajah (stylized realism).\n\nGunakan gaya Pixar-style / animasi modern dengan tekstur halus, pencahayaan lembut (soft lighting), dan detail wajah yang bersih serta ekspresif.\n\nGunakan komposisi half body (setengah badan) agar fokus tetap pada wajah dan ekspresi karakter.\n\nTema: Jurusan Sosial (IPS).\nTempatkan karakter di lingkungan yang merepresentasikan aktivitas sosial dan ekonomi, seperti latar kota modern, ruang kerja, atau area publik dengan elemen seperti grafik ekonomi, peta dunia, dokumen, atau layar digital berisi data.\n\nJangan tambahkan orang lain di background. Fokus hanya pada satu karakter utama.\n\nKarakter mengenakan pakaian rapi atau semi-formal (seperti analis, presenter, atau profesional muda), sambil memegang tablet, buku, atau catatan.\n\nTambahkan elemen visual seperti grafik naik-turun, ikon ekonomi, atau peta yang halus sebagai bagian dari background untuk memperkuat tema sosial.\n\nTambahkan nametag atau teks label yang jelas bertuliskan: \"SOSIAL\".\nPosisikan secara natural (misalnya di bagian dada seperti badge, atau sebagai elemen desain di background), dengan font yang clean dan mudah dibaca namun tetap menyatu dengan gaya ilustrasi.\n\nGunakan depth of field ringan (background sedikit blur) agar karakter lebih menonjol, dengan nuansa ilustrasi editorial yang mencerminkan dunia sosial, ekonomi, dan komunikasi modern.",
+    "num_images": 1,
+    "aspect_ratio": "9:16",
+    "output_format": "png",
+    "image_urls": [
+      "input_1_closeup.jpg"
+    ],
+    "resolution": "0.5K",
+    "limit_generations": true
+  },
+  {
+    "label": "Profesi Bahasa",
+    "prompt": "Ubah foto ini menjadi ilustrasi dengan gaya 3D digital caricature (big head style), dengan proporsi kepala sedikit lebih besar dari tubuh, namun tetap mempertahankan kemiripan wajah (stylized realism).\n\nGunakan gaya Pixar-style / animasi modern dengan tekstur halus, pencahayaan lembut (soft lighting), dan detail wajah yang bersih serta ekspresif.\n\nGunakan komposisi half body (setengah badan) agar fokus tetap pada wajah dan ekspresi karakter.\n\nTema: Sastrawan / dunia sastra (Jurusan Bahasa).\nTempatkan karakter dalam suasana yang puitis dan estetik, seperti perpustakaan klasik, ruang menulis yang hangat, atau dekat jendela dengan cahaya senja yang lembut.\n\nJangan tambahkan orang lain di background. Fokus hanya pada satu karakter utama.\n\nKarakter mengenakan pakaian kasual rapi atau semi-formal dengan sentuhan artistik, sambil memegang buku, pena, atau kertas tulisan.\n\nTambahkan elemen visual seperti lembaran kertas untuk memberikan kesan puitis dan imajinatif.\n\nTambahkan nametag atau teks label yang jelas bertuliskan: \"BAHASA\".\nPosisikan secara natural (misalnya di bagian dada seperti badge, atau sebagai elemen desain di background), dengan font yang clean dan mudah dibaca namun tetap menyatu dengan gaya ilustrasi.\n\nGunakan pencahayaan hangat (warm lighting) dengan nuansa romantis, serta depth of field ringan (background sedikit blur) agar karakter lebih menonjol.\n\nGaya keseluruhan terasa seperti ilustrasi editorial yang emosional, reflektif, dan penuh makna, menggambarkan seorang penulis atau penyair.",
+    "num_images": 1,
+    "aspect_ratio": "9:16",
+    "output_format": "png",
+    "image_urls": [
+      "input_1_closeup.jpg"
+    ],
+    "resolution": "0.5K",
+    "limit_generations": true
+  }
+]
