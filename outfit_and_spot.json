@@ -1,6 +1,6 @@
 [
   {
-    "label": "Outfit SD (All Backgrounds)",
+    "label": "Outfit SD + Gerbang",
     "image_size": "portrait_16_9",
     "num_images": 1,
     "max_images": 1,
@@ -8,13 +8,13 @@
     "enhance_prompt_mode": "standard",
     "image_urls": [
       "input_ber3_1.jpg",
-      "BACKGROUND_PLACEHOLDER",
+      "spot_3_gerbang.jpeg",
       "logo_SD.png"
     ],
-    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: school logo\n\nTASK 1 — Indonesian Elementary School (SD) Uniform\nReplace the outfit with Indonesian public elementary school (SD) uniform.\n\nHARD LOCK – SHIRT\nWhite shirt\nClean and simple\nExactly 1 chest pocket (left side)\nSchool logo on pocket (exact match to Reference-3, small, realistic)\nNo extra text\nNo blazer, tie, or vest\n\nHAT / CAP HANDLING (CONDITIONAL HARD LOCK)\nIf subject wears hat → MUST KEEP\nAdapt to SD style: red cap matching bottom\nNo new logo/text\nKeep position and fit\nIf no hat → do NOT add\n\nHARD LOCK – BOTTOM\nDeep red (slightly maroon)\nRange: #8e2b2b – #a93226\nNOT bright red, NOT brown, NOT black\n\nClothing\nMale: red shorts (above knee)\nFemale: red skirt (knee length)\nFemale hijab: long skirt (below knee–ankle), hijab covers hair/neck\n\nSleeves\nFollow original\nEXCEPTION (STRICT): hijab MUST use long sleeves (wrist-length)\n\nShoes\nBlack casual school shoes\nShort ankle socks only\n\nRemove non-uniform items\nKeep identity, face, proportions, all people\n\nTASK 2 — Background\nReplace with Reference-2\nMatch lighting, perspective, shadows\nFeet touch ground, no floating\nRemove original ground\n\nHARD CONSTRAINTS\nKeep all subjects\nNo extra people\nClean, realistic, no artifacts\n\nFINAL\nNatural Indonesian SD group photo"
+    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: school logo\n\nTASK 1 — Indonesian Elementary School (SD) Uniform\n\nReplace the outfit with Indonesian public elementary school (SD) uniform.\n\nHARD LOCK – SHIRT\nWhite shirt\nClean and simple\nExactly 1 chest pocket (left side)\n\nLOGO RULE (STRICT)\nLogo must be identical to Reference-3\nLogo must be small, centered, and fully contained within the shirt pocket area\nDo NOT allow the logo to exceed or go outside the pocket boundaries\nDo NOT distort, stretch, or rotate the logo\nNo extra text added\n\nHAT / CAP HANDLING (CONDITIONAL HARD LOCK)\nIf the original subject is wearing a hat/cap → MUST KEEP the hat\nAdapt to SD style: red cap matching bottom color\nDo NOT add logo/text unless originally present\nKeep original position and fit\nIf no hat → do NOT add\n\nHARD LOCK – BOTTOM COLOR\nSolid deep red typical Indonesian SD uniform\nSlightly maroon tone (#8e2b2b – #a93226)\nNOT bright red, NOT brown, NOT blackish\n\nClothing Details\nMale: red shorts (above knee)\nFemale: red skirt (knee length)\nFemale (hijab): long skirt + full hijab coverage\n\nSLEEVES RULE (STRICT)\nFollow original sleeve length\nEXCEPTION (STRICT): If subject is wearing hijab → MUST use long sleeves (wrist-length)\nDo NOT generate short sleeves for hijab cases\n\nShoes & Socks\nBlack casual school shoes\nShort ankle socks only\n\nRemove accessories, layers, non-uniform items\nKeep face, identity, proportions, all subjects\n\nTASK 2 — Background Replacement\nReplace with Reference-2 background\nMatch lighting, perspective, shadows\nFeet must touch ground\nNo floating, no distortion\nNo face overlap\n\nGROUND RULE (STRICT)\nCompletely remove original floor/ground\nDo NOT retain any visual elements from the original background, including ground, floor, or shadows\nUse only ground from Reference-2\n\nHARD CONSTRAINTS\nKeep all original subjects\nDo NOT add extra people\nClean result, no artifacts\n\nFINAL OUTPUT\nNatural Indonesian elementary school (SD) group photo"
   },
   {
-    "label": "Outfit SMP (All Backgrounds)",
+    "label": "Outfit SMP + Gerbang",
     "image_size": "portrait_16_9",
     "num_images": 1,
     "max_images": 1,
@@ -22,13 +22,13 @@
     "enhance_prompt_mode": "standard",
     "image_urls": [
       "input_ber3_1.jpg",
-      "BACKGROUND_PLACEHOLDER",
-      "logo_osis_smp.png"
+      "spot_3_gerbang.jpeg",
+      "logo_osis_smp.jpg"
     ],
-    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: school logo\n\nTASK 1 — Indonesian Junior High School (SMP) Uniform\nReplace the outfit with SMP uniform.\n\nHARD LOCK – SHIRT\nWhite shirt, 1 pocket\nLogo exact match (small)\nNo blazer/tie/vest\n\nHAT / CAP HANDLING (CONDITIONAL HARD LOCK)\nIf subject wears hat → MUST KEEP\nAdapt to SMP style: navy cap matching bottom\nNo new logo/text\nKeep position and fit\nIf no hat → do NOT add\n\nHARD LOCK – BOTTOM\nNavy blue (#1f3a63 – #243b6b)\nClearly blue, NOT black\n\nClothing\nMale: long pants\nFemale: skirt below knee\nFemale hijab: long skirt + full hijab coverage\n\nSleeves\nFollow original\nEXCEPTION (STRICT): hijab MUST use long sleeves (wrist-length)\n\nShoes\nBlack casual shoes\nShort socks only\n\nRemove non-uniform items\nKeep identity, all subjects\n\nTASK 2 — Background\nReplace with Reference-2\nMatch lighting & perspective\nFeet grounded, no distortion\n\nHARD CONSTRAINTS\nKeep all subjects\nNo extra people\nClean result\n\nFINAL\nNatural Indonesian SMP group photo"
+    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: school logo\n\nTASK 1 — Indonesian Junior High School (SMP) Uniform\n\nReplace the outfit with SMP uniform.\n\nHARD LOCK – SHIRT\nWhite shirt\nExactly 1 chest pocket (left side)\n\nLOGO RULE (STRICT)\nLogo must be identical to Reference-3\nLogo must be small, centered, and fully contained within the shirt pocket area\nDo NOT allow the logo to exceed or go outside the pocket boundaries\nDo NOT distort, stretch, or rotate the logo\n\nHAT / CAP HANDLING (CONDITIONAL HARD LOCK)\nIf subject wears hat → MUST KEEP\nAdapt to SMP style: navy cap matching bottom color\nDo NOT add logo/text unless originally present\nKeep original position and fit\nIf no hat → do NOT add\n\nHARD LOCK – BOTTOM\nNavy blue (#1f3a63 – #243b6b)\nClearly blue, NOT black\n\nClothing\nMale: long pants\nFemale: skirt\nFemale (hijab): long skirt + full coverage\n\nSLEEVES RULE (STRICT)\nFollow original sleeve length\nEXCEPTION (STRICT): hijab MUST use long sleeves\nDo NOT generate short sleeves for hijab cases\n\nShoes\nBlack casual shoes\nShort socks only\n\nRemove non-uniform items\nKeep identity, all subjects\n\nTASK 2 — Background\nReplace with Reference-2\nMatch lighting & perspective\nFeet grounded, no distortion\n\nGROUND RULE (STRICT)\nCompletely remove original floor/ground\nDo NOT retain any visual elements from the original background, including ground, floor, or shadows\nUse only ground from Reference-2\n\nHARD CONSTRAINTS\nKeep all subjects\nNo extra people\nClean result\n\nFINAL OUTPUT\nNatural Indonesian SMP group photo"
   },
   {
-    "label": "Outfit SMA (All Backgrounds)",
+    "label": "Outfit SMA + Gerbang",
     "image_size": "portrait_16_9",
     "num_images": 1,
     "max_images": 1,
@@ -36,9 +36,9 @@
     "enhance_prompt_mode": "standard",
     "image_urls": [
       "input_ber3_1.jpg",
-      "BACKGROUND_PLACEHOLDER",
-      "logo_osis_sma.png"
+      "spot_3_gerbang.jpeg",
+      "logo_osis_sma.jpg"
     ],
-    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: OSIS logo\n\nTASK 1 — Indonesian Senior High School (SMA) Uniform\nReplace outfit with SMA uniform.\n\nHARD LOCK – SHIRT\nWhite shirt, 1 pocket\nOSIS logo exact match\nNo blazer/tie/vest\n\nHAT / CAP HANDLING (CONDITIONAL HARD LOCK)\nIf subject wears hat → MUST KEEP\nAdapt to SMA style: bluish grey cap matching bottom (#72829f tone)\nNo new logo/text\nKeep position and fit\nIf no hat → do NOT add\n\nHARD LOCK – BOTTOM\nLight bluish grey (#72829f)\nMedium-light tone\nNOT dark grey / black\n\nClothing\nMale: long pants\nFemale: skirt\nFemale hijab: long skirt + full coverage\n\nSleeves\nFollow original\nEXCEPTION (STRICT): hijab MUST use long sleeves (wrist-length)\n\nShoes\nBlack casual school shoes\nShort ankle socks only\n\nRemove non-uniform items\nKeep identity, all subjects\n\nTASK 2 — Background\nReplace with Reference-2\nMatch lighting, shadows, perspective\nFeet grounded\nRemove original floor\n\nHARD CONSTRAINTS\nKeep all subjects\nNo extra people\nClean, realistic\n\nFINAL\nNatural Indonesian SMA group photo"
+    "prompt": "Image editing task using 3 reference images.\nReference-1: main subject\nReference-2: background\nReference-3: OSIS logo\n\nTASK 1 — Indonesian Senior High School (SMA) Uniform\n\nReplace outfit with SMA uniform.\n\nHARD LOCK – SHIRT\nWhite shirt\nExactly 1 pocket\n\nLOGO RULE (STRICT)\nLogo must be identical to Reference-3\nLogo must be small, centered, and fully contained within the shirt pocket area\nDo NOT allow the logo to exceed or go outside the pocket boundaries\nDo NOT distort, stretch, or rotate the logo\n\nHAT / CAP HANDLING (CONDITIONAL HARD LOCK)\nIf subject wears hat → MUST KEEP\nAdapt to SMA style: bluish grey cap (#72829f tone)\nDo NOT add logo/text unless originally present\nKeep original position and fit\nIf no hat → do NOT add\n\nHARD LOCK – BOTTOM\nLight bluish grey (#72829f)\nNOT dark grey or black\n\nClothing\nMale: long pants\nFemale: skirt\nFemale (hijab): long skirt + full coverage\n\nSLEEVES RULE (STRICT)\nFollow original sleeve length\nEXCEPTION (STRICT): hijab MUST use long sleeves\nDo NOT generate short sleeves for hijab cases\n\nShoes\nBlack casual school shoes\nShort socks only\n\nRemove non-uniform items\nKeep identity, all subjects\n\nTASK 2 — Background\nReplace with Reference-2\nMatch lighting, shadows, perspective\nFeet grounded\n\nGROUND RULE (STRICT)\nCompletely remove original floor/ground\nDo NOT retain any visual elements from the original background, including ground, floor, or shadows\nUse only ground from Reference-2\n\nHARD CONSTRAINTS\nKeep all subjects\nNo extra people\nClean, realistic\n\nFINAL OUTPUT\nNatural Indonesian SMA group photo"
   }
 ]
