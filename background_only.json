@@ -1,0 +1,12 @@
+{
+  "prompt": "Image editing task using 2 reference images\n\nReference-1: main subject\nReference-2: background\n\n[Task 1: Subject Integrity — NO OUTFIT CHANGE]\n\nKeep the subject EXACTLY as in the original image.\n\nRules (HARD LOCK):\n\nDo NOT change clothing (no uniform conversion)\nDo NOT modify outfit color, texture, or style\nKeep original face, identity, expression, hairstyle, and proportions\nKeep original pose and body structure\nRemove only minor distracting accessories if necessary (optional, minimal)\n[Task 2: Background Replacement]\n\nReplace the background with the provided reference background.\n\nRequirements:\n\nMatch perspective (camera angle, horizon, subject scale)\nMatch lighting direction and intensity\nAdjust color tone (white balance, exposure) to blend naturally\nAdd realistic shadows under feet\nEnsure proper ground contact (no floating)\n[Composition Rules — HARD LOCK]:\nKeep all original subjects (no extra / no missing people)\nNo face overlap or obstruction\nMaintain natural spacing between subjects\nFeet must touch ground naturally\nNo distortion of body or limbs\n[Lighting & Realism]:\nFollow background lighting source\nAdd soft, realistic shadows\nMatch contrast and dynamic range\nApply subtle ambient color reflection if needed\nAvoid over-editing / HDR look\n[Environment Integration]:\nDo NOT retain original floor/ground\nSeamless blending (no cutout edges, no halo)\nOptional slight depth-of-field to match background\n[Hard Constraints]:\nNo extra people\nNo missing subjects\nNo floating or unnatural positioning\nNo artifacts, glitches, or deformation\nClean, photorealistic output\n[Final Goal]:\n\nNatural, realistic photo with perfect subject-background integration,\nwhile preserving original identity 100%.",
+  "image_size": "portrait_16_9",
+  "image_urls": [
+    "berdua_cewe.jpeg",
+    "spot_5_tugu_malang.png"
+  ],
+  "max_images": 1,
+  "num_images": 1,
+  "enhance_prompt_mode": "standard",
+  "enable_safety_checker": true
+}

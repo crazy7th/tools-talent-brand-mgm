@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KATALOG | Rujakan 2026 - AI Style Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+        
+        :root {
+            --bg-light: #fcfcfc;
+            --text-main: #0a0a0a;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-main);
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        /* Nav Tab Styling - Polished */
+        .nav-tab {
+            position: relative;
+            padding: 10px 0;
+            font-weight: 800;
+            font-size: 14px;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: #a1a1aa;
+            transition: all 0.3s ease;
+        }
+
+        .nav-tab::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #000;
+            transition: width 0.3s ease;
+        }
+
+        .nav-tab:hover {
+            color: #000;
+        }
+
+        .nav-tab:hover::after {
+            width: 100%;
+        }
+
+        .nav-tab.active {
+            color: #000;
+        }
+
+        .nav-tab.active::after {
+            width: 100%;
+            height: 3px;
+        }
+
+        /* Polaroid Card - High Physicality */
+        .polaroid-card {
+            background: #ffffff;
+            padding: 12px 12px 54px 12px;
+            transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+            box-shadow: 0 10px 20px -5px rgba(0,0,0,0.05);
+            border: 1px solid rgba(0,0,0,0.03);
+            position: relative;
+        }
+
+        .polaroid-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.15);
+            z-index: 10;
+        }
+
+        .polaroid-card.selected {
+            border: 3px solid #000;
+            box-shadow: 0 0 0 4px rgba(0,0,0,0.05);
+        }
+
+        .polaroid-label {
+            position: absolute;
+            bottom: 18px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            font-weight: 800;
+            font-size: 10px;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            color: #1a1a1a;
+        }
+
+        /* Custom Vertical Text for Index */
+        .vertical-text {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+        }
+
+        /* Floating WA */
+        .wa-floating-btn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #25D366;
+            color: white;
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 15px 35px -5px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s ease;
+            z-index: 100;
+        }
+
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+    </style>
+</head>
+<body class="pb-32">
+
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white/90 backdrop-blur-md px-8 py-6 flex flex-col md:flex-row items-center justify-between border-b border-gray-100 gap-6">
+        <!-- Brand Alternative: Modern Boutique Style -->
+        <div class="flex flex-col md:flex-row md:items-center gap-1 md:gap-3 group cursor-default">
+            <h1 class="text-3xl font-extrabold tracking-[ -0.05em] uppercase text-black leading-none">
+                2026
+            </h1>
+            <div class="hidden md:block w-px h-6 bg-gray-400 group-hover:bg-black transition-colors duration-500"></div>
+            <div>
+                <p class="text-[12px] font-medium tracking-[0.4em] text-gray-500 uppercase leading-none">
+                    KATALOG PHOTO
+                </p>
+                <p class="text-[12px] font-bold tracking-[0.4em] text-gray-800 uppercase leading-none">
+                    RUJAKAN
+                </p>
+            </div>
+        </div>
+
+        <div class="flex gap-8 overflow-x-auto no-scrollbar w-full md:w-auto justify-center">
+            <button onclick="filterSegment('Individual')" id="btn-Individual" class="nav-tab active">INDIVIDUAL</button>
+            <button onclick="filterSegment('Duo')" id="btn-Duo" class="nav-tab">DUO</button>
+            <button onclick="filterSegment('Family')" id="btn-Family" class="nav-tab">FAMILY</button>
+            <button onclick="filterSegment('Group')" id="btn-Group" class="nav-tab">GROUP</button>
+        </div>
+    </nav>
+
+    <main class="max-w-7xl mx-auto px-8 pt-16">
+        <!-- Catalog Content -->
+        <div id="catalog-content" class="space-y-40">
+            <!-- Sections will be injected via JS -->
+        </div>
+    </main>
+
+    <!-- Simple WA Icon -->
+    <a href="https://wa.me/6281234567890" target="_blank" class="wa-floating-btn" title="Kirim ke WhatsApp">
+        <i class="fab fa-whatsapp text-3xl"></i>
+    </a>
+
+    <script>
+        const catalogData = [
+            {
+                number: "01",
+                title: "Vespa Nostalgia",
+                subtitle: "Katalog ikonik vespa di masa sekolah.",
+                styles: [
+                    { id: 'v-o-basket', title: 'Vespa + Outfit di Lapangan Basket', segments: ['Individual', 'Duo', 'Family'], img: 'assets/img/result/vespa_1.png' },
+                    { id: 'v-o-kelas', title: 'Vespa + Outfit depan Kelas', segments: ['Individual', 'Duo', 'Family'], img: 'assets/img/result/vespa_2.png' },
+                    { id: 'v-o-gerbang', title: 'Vespa + Outfit di Gerbang', segments: ['Individual', 'Duo', 'Family'], img: 'assets/img/result/vespa_3.png' },
+                    { id: 'v-basket', title: 'Vespa di Lapangan Basket', segments: ['Individual', 'Duo', 'Family'], img: 'assets/img/result/vespa_4.png' },
+                    { id: 'v-kelas', title: 'Vespa depan Kelas', segments: ['Individual', 'Duo', 'Family'], img: 'assets/img/result/vespa_5.png' },
+                    { id: 'v-gerbang', title: 'Vespa di Gerbang', segments: ['Individual', 'Duo', 'Family'], img: 'assets/img/result/vespa_6.png' }
+                ]
+            },
+            {
+                number: "02",
+                title: "Seragam Nostalgia",
+                subtitle: "Throwback ke masa sekolah dengan seragam ikonik.",
+                styles: [
+                    { id: 'o-sma-kelas', title: 'Outfit SMA depan Kelas', segments: ['Individual', 'Duo', 'Family'], img: 'assets/img/result/outfit_sma.png' },
+                    { id: 'o-smp-basket', title: 'Outfit SMP di Lapangan Basket', segments: ['Individual', 'Duo', 'Family'], img: 'assets/img/result/outfit_smp.png' },
+                    { id: 'o-sd-gerbang', title: 'Outfit SD di Gerbang', segments: ['Individual', 'Duo', 'Family'], img: 'assets/img/result/outfit_sd.png' }
+                ]
+            },
+            {
+                number: "02",
+                title: "School Activity",
+                subtitle: "Momen autentik dari sepeda ontel hingga bangku kelas.",
+                styles: [
+                    { id: 'o-sma', title: 'Naik Ontel', segments: ['Individual', 'Duo', 'Family'], img: 'https://images.unsplash.com/photo-1518349662322-6ad0d0c17bc4?auto=format&fit=crop&q=80&w=600' },
+                    { id: 'b-sma', title: 'Bangku SMA', segments: ['Individual', 'Duo', 'Family'], img: 'https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&q=80&w=600' },
+                    { id: 'b-smp', title: 'Bangku SMP', segments: ['Individual', 'Duo', 'Family'], img: 'https://images.unsplash.com/photo-1523050853063-88065f841353?auto=format&fit=crop&q=80&w=600' }
+                ]
+            },
+            {
+                number: "03",
+                title: "Signature Art",
+                subtitle: "Gaya portrait editorial dengan karakter unik.",
+                styles: [
+                    { id: 'sig-jur', title: 'Jurusan IPA/IPS', segments: ['Individual'], img: 'https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&q=80&w=600' },
+                    { id: 'sig-kur', title: 'Studio Portrait', segments: ['Individual'], img: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?auto=format&fit=crop&q=80&w=600' },
+                    { id: 'sig-tag', title: 'Identity Tagline', segments: ['Individual'], img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600' }
+                ]
+            },
+            {
+                number: "04",
+                title: "Basic Transform",
+                subtitle: "Modifikasi cepat untuk outfit dan latar belakang.",
+                styles: [
+                    { id: 'e-out', title: 'Ganti Outfit', segments: ['Individual', 'Duo', 'Family', 'Group'], img: 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=600' },
+                    { id: 'e-bg', title: 'Ganti Latar', segments: ['Individual', 'Duo', 'Family', 'Group'], img: 'https://images.unsplash.com/photo-1541339907198-e08756ebafe3?auto=format&fit=crop&q=80&w=600' }
+                ]
+            }
+        ];
+
+        let currentSegment = 'Individual';
+        let selectedStyle = null;
+
+        function renderCatalog() {
+            const container = document.getElementById('catalog-content');
+            container.innerHTML = '';
+
+            catalogData.forEach((section) => {
+                const filteredStyles = section.styles.filter(s => s.segments.includes(currentSegment));
+                
+                if (filteredStyles.length > 0) {
+                    const sectionHTML = `
+                        <div class="flex gap-8 md:gap-12 animate-in fade-in slide-in-from-bottom-6 duration-1000 group">
+                            <!-- Vertical Spine Header -->
+                            <div class="hidden md:flex flex-col items-center">
+                                <div class="text-[10px] font-black vertical-text uppercase tracking-[0.4em] text-gray-200 group-hover:text-black transition-colors duration-500 py-2">
+                                    INDEX ${section.number}
+                                </div>
+                                <div class="w-px flex-1 bg-gray-100 group-hover:bg-black transition-colors duration-500"></div>
+                            </div>
+
+                            <div class="flex-1">
+                                <!-- Minimal Header: Title & Subtitle -->
+                                <div class="mb-10">
+                                    <h4 class="text-4xl md:text-6xl font-black uppercase tracking-tighter text-black leading-none italic mb-4">
+                                        ${section.title}
+                                    </h4>
+                                    <p class="text-[10px] md:text-xs font-bold text-gray-400 uppercase tracking-[0.3em]">
+                                        ${section.subtitle}
+                                    </p>
+                                </div>
+
+                                <!-- Cards Grid -->
+                                <div class="grid grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
+                                    ${filteredStyles.map(style => `
+                                        <div id="card-${style.id}" onclick="selectStyle('${style.id}', '${style.title}')" 
+                                             class="polaroid-card cursor-pointer relative ${selectedStyle?.id === style.id ? 'selected' : ''}">
+                                            <div class="aspect-3/4 overflow-hidden bg-gray-50 border border-gray-100">
+                                                <img src="${style.img}" class="w-full h-full object-cover transition-transform duration-700 hover:scale-105">
+                                            </div>
+                                            <div class="polaroid-label italic font-black">${style.title}</div>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                    container.innerHTML += sectionHTML;
+                }
+            });
+        }
+
+        function selectStyle(id, title) {
+            if (selectedStyle) {
+                document.getElementById(`card-${selectedStyle.id}`)?.classList.remove('selected');
+            }
+            selectedStyle = { id, title };
+            document.getElementById(`card-${id}`).classList.add('selected');
+        }
+
+        function filterSegment(segment) {
+            currentSegment = segment;
+            document.querySelectorAll('.nav-tab').forEach(btn => btn.classList.remove('active'));
+            document.getElementById(`btn-${segment}`).classList.add('active');
+            selectedStyle = null;
+            renderCatalog();
+        }
+
+        window.onload = renderCatalog;
+    </script>
+</body>
+</html>
